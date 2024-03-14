@@ -1,0 +1,96 @@
+body {
+    background: gray;
+    color: rgb(143, 59, 59);
+}
+
+p {
+    background: rgb(143, 59, 59);
+    color: rgb(172, 165, 165);
+    display: inline;
+}
+
+
+.menucontainer {
+position: relative;
+height: 500px;
+}
+
+.menu {
+    position: absolute;
+    background: rgba(155, 153, 153, 0.5);
+    color: rgb(220, 206, 206);
+    display: flex;
+    justify-content: space-around;
+    /*border: 1px solid blueviolet;*/
+    width: 100%;
+    margin-top: 250px;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.Startbild {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 60%;
+    position: absolute;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* ausklammern
+img {
+    background: black;
+    color: white;
+    display: block;
+}
+*/
+
+
+.intro {
+
+    display: flex;
+}
+
+.intro_text {
+    color: rgb(143, 59, 59);
+    padding: 50px;
+}
+
+.datenüberblick {
+    margin: 50px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+ 
+
+.Bildergalerie {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(65, 62, 62);
+    justify-content: space-around;
+
+}
+
+.Bildergalerie_item {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    flex-grow: 1;
+    margin: 5px;
+}

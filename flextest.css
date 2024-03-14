@@ -1,0 +1,26 @@
+.spalten {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.article {
+    min-width: 200px;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+ 
+.doublearticle {
+    flex: 2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+ 
+/*.article-background {
+    background-color: green;
+}
+ */

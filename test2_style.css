@@ -1,0 +1,11 @@
+#headline {
+    font-family: 'Arial';
+}
+
+.box {
+    border: 10px solid black;
+}
+
+.red-background {
+    background-color: red;
+}
